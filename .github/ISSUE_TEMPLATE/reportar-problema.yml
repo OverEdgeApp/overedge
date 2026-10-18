@@ -1,0 +1,63 @@
+name: Reportar un problema
+description: Algo no funciona como esperabas.
+title: "[Problema] "
+labels: ["problema"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Gracias por avisar. Antes de tomar capturas, usa el ojito de la app (arriba a la derecha) para ocultar tus IPs.
+        Si es una falla de **seguridad**, no la publiques aquí: sigue [SECURITY.md](../blob/main/SECURITY.md).
+  - type: textarea
+    id: que-paso
+    attributes:
+      label: ¿Qué pasó?
+      description: Cuéntalo como se lo contarías a un amigo.
+      placeholder: Al llevar el cursor al borde derecho no cruza a la Mac…
+    validations:
+      required: true
+  - type: textarea
+    id: esperado
+    attributes:
+      label: ¿Qué esperabas que pasara?
+    validations:
+      required: true
+  - type: textarea
+    id: pasos
+    attributes:
+      label: Pasos para repetirlo
+      placeholder: |
+        1. Abro Overedge en la PC y en la Mac
+        2. …
+  - type: input
+    id: version
+    attributes:
+      label: Versión de Overedge
+      description: Aparece abajo del nombre, en la barra lateral de la app.
+      placeholder: "0.5.1"
+    validations:
+      required: true
+  - type: dropdown
+    id: principal
+    attributes:
+      label: ¿Dónde está conectado tu teclado?
+      options:
+        - En la PC con Windows
+        - En la Mac
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Versión de Windows
+      placeholder: Windows 11 24H2
+  - type: input
+    id: macos
+    attributes:
+      label: Versión de macOS y modelo de Mac
+      placeholder: macOS 15.1 · MacBook Pro M3
+  - type: textarea
+    id: registro
+    attributes:
+      label: Registro o capturas
+      description: Copia lo que aparece en la pestaña Actividad o arrastra capturas aquí.

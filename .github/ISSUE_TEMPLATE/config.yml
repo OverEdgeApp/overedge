@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Reportar una falla de seguridad
+    url: https://github.com/OverEdgeApp/overedge/blob/main/SECURITY.md
+    about: Por favor no publiques fallas de seguridad como issue. Aquí está cómo reportarlas en privado.
+  - name: Sitio de Overedge
+    url: https://overedgeapp.com
+    about: Cómo funciona, seguridad y descargas.

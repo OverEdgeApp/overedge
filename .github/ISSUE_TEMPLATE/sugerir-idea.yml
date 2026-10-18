@@ -1,0 +1,30 @@
+name: Proponer una idea
+description: Algo que te gustaría que Overedge hiciera.
+title: "[Idea] "
+labels: ["idea"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Antes de proponer, revisa si alguien ya lo pidió: si existe, déjale un 👍 en vez de abrir otra.
+  - type: textarea
+    id: idea
+    attributes:
+      label: ¿Qué te gustaría?
+      placeholder: Poder copiar en la Mac y pegar en la PC…
+    validations:
+      required: true
+  - type: textarea
+    id: para-que
+    attributes:
+      label: ¿Para qué lo usarías?
+      description: Contar tu caso ayuda a diseñarlo bien.
+  - type: dropdown
+    id: sistemas
+    attributes:
+      label: ¿En qué computadoras?
+      multiple: true
+      options:
+        - Windows
+        - macOS
+        - Linux
