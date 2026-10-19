@@ -30,8 +30,8 @@ Si quieres, te damos crédito en las notas de la versión que lo arregla. Pedimo
 
 | Versión | Soporte |
 |---|---|
-| 0.5.x | ✅ Recibe correcciones de seguridad |
-| < 0.5 | ❌ Actualiza a la versión más reciente |
+| 0.5.2 o más nueva | ✅ Recibe correcciones de seguridad |
+| 0.5.1 o anterior | ❌ Actualiza a la versión más reciente |
 
 ## Qué cubre
 

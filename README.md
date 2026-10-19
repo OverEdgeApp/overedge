@@ -15,8 +15,9 @@ Sin cables, sin hardware y sin nube: todo viaja por tu red local, cifrado.
 [![Descargar](https://img.shields.io/badge/Descargar-111111?style=for-the-badge&logo=github&logoColor=white)](../../releases/latest)
 [![Comunidad](https://img.shields.io/badge/Comunidad-111111?style=for-the-badge&logo=github&logoColor=white)](../../discussions)
 
-![Versión](https://img.shields.io/badge/versión-0.5.1-111?style=flat-square)
-![Estado](https://img.shields.io/badge/estado-beta_privada-FF5B3D?style=flat-square)
+[![Versión](https://img.shields.io/github/v/release/OverEdgeApp/overedge?include_prereleases&label=versión&color=111&style=flat-square)](../../releases)
+![Estado](https://img.shields.io/badge/beta-gratis-FF5B3D?style=flat-square)
+[![Descargas](https://img.shields.io/github/downloads/OverEdgeApp/overedge/total?label=descargas&color=111&style=flat-square)](../../releases)
 ![Windows](https://img.shields.io/badge/Windows-10_|_11-0078D4?style=flat-square&logo=windows11&logoColor=white)
 ![macOS](https://img.shields.io/badge/macOS-Apple_Silicon_|_Intel-111?style=flat-square&logo=apple&logoColor=white)
 ![Cifrado](https://img.shields.io/badge/cifrado-TLS_1.3_+_SPAKE2-30D158?style=flat-square)
@@ -111,12 +112,12 @@ flowchart LR
 
 ## ✦ Descargar e instalar
 
-Cada versión se publica en **[Releases](../../releases)**. Mientras dure la beta privada, también puedes pedir tu lugar en **[overedgeapp.com](https://overedgeapp.com)**.
+Descárgala desde **[overedgeapp.com](https://overedgeapp.com/#descargar)** o directo de **[Releases](../../releases/latest)**. Cada versión trae sus notas y las sumas SHA-256 para verificar los archivos.
 
 | Sistema | Archivo | Requisitos |
 |---|---|---|
-| <img src="https://img.shields.io/badge/-Windows-0078D4?style=flat-square&logo=windows11&logoColor=white" alt="Windows"> | `Overedge.exe` | Windows 10 u 11 |
-| <img src="https://img.shields.io/badge/-macOS-111?style=flat-square&logo=apple&logoColor=white" alt="macOS"> | `Overedge-mac.zip` | Mac con Apple Silicon o Intel |
+| <img src="https://img.shields.io/badge/-Windows-0078D4?style=flat-square&logo=windows11&logoColor=white" alt="Windows"> | [`Overedge.exe`](../../releases/latest/download/Overedge.exe) | Windows 10 u 11 |
+| <img src="https://img.shields.io/badge/-macOS-111?style=flat-square&logo=apple&logoColor=white" alt="macOS"> | [`Overedge-mac.zip`](../../releases/latest/download/Overedge-mac.zip) | Mac con Apple Silicon o Intel |
 
 <details>
 <summary><b>🪟 Instalar en Windows</b></summary>
@@ -139,6 +140,12 @@ Cada versión se publica en **[Releases](../../releases)**. Mientras dure la bet
 4. Elige tu PC de la lista y escribe el código que aparece en Windows.
 
 </details>
+
+### Actualizaciones
+
+Overedge te avisa cuando hay una versión nueva: aparece una tarjeta en la barra lateral con el botón **Descargar**. Si usas una beta, también te avisa de las betas nuevas. La app solo consulta las Releases públicas de este repositorio, no envía datos tuyos, y puedes apagarlo en **Seguridad → Buscar actualizaciones**.
+
+¿Quieres enterarte de cada versión sin abrir la app? Pulsa **Watch → Custom → Releases** arriba en este repositorio.
 
 > [!TIP]
 > **¿Te quedaste "atrapado" en la Mac?** Pulsa <kbd>Bloq Despl</kbd> (Scroll Lock) en el teclado de la PC y el control regresa a Windows al instante.
@@ -247,7 +254,7 @@ Todavía no: hoy el teclado y el mouse van conectados a la PC con Windows. Usar 
 <details>
 <summary><b>¿Cuánto cuesta?</b></summary>
 <br>
-Durante la beta privada es gratis. El plan para cuando salga de beta se anunciará en <a href="https://overedgeapp.com">overedgeapp.com</a>.
+La beta es gratis. El plan para cuando salga de beta se anunciará en <a href="https://overedgeapp.com">overedgeapp.com</a>.
 </details>
 
 ## ✦ Lo que viene
@@ -274,7 +281,7 @@ El código de la app es privado, pero hay muchas formas de hacer que Overedge se
 | 👍 **Vota** | Reacciona con 👍 a las ideas y problemas que también te pasan. |
 | 💬 **[Platica en Discussions](../../discussions)** | Dudas, setups, trucos y lo que se te ocurra. |
 | 📝 **Mejora la documentación** | Un pull request a este repositorio siempre es bienvenido. |
-| 🧪 **Prueba las betas** | Pide tu lugar en [overedgeapp.com](https://overedgeapp.com) y cuéntanos cómo te va. |
+| 🧪 **Prueba las betas** | Descárgalas en [Releases](../../releases) y cuéntanos cómo te va. |
 
 Todo está en **[CONTRIBUTING.md](CONTRIBUTING.md)**. Participar implica seguir el **[código de conducta](CODE_OF_CONDUCT.md)**.
 

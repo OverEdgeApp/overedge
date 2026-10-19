@@ -40,7 +40,7 @@ Este repositorio acepta pull requests para el README, las guías y las plantilla
 
 ## 🧪 Probar las betas
 
-Pide tu lugar en **[overedgeapp.com](https://overedgeapp.com)**. Si ya estás dentro, lo más valioso es usarla en tu día a día y reportar todo lo que se sienta raro, aunque parezca menor.
+Descarga las versiones beta en **[Releases](../../releases)** (las marcadas como *Pre-release*). Lo más valioso es usarla en tu día a día y reportar todo lo que se sienta raro, aunque parezca menor.
 
 ## Cómo se atienden los issues
 
